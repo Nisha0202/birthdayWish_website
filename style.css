@@ -1,0 +1,84 @@
+body{
+ background: linear-gradient(rgb(173, 34, 92), rgb(159, 50, 33));
+ 
+ color: white;
+  font-family: 'Happy Monkey', cursive;
+font-family: 'Orbitron', sans-serif;
+text-align: center;
+}
+#header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  text-shadow: 0px 0px 10px black;
+  color: white;
+}
+#me{
+ height: 250px;
+ border-radius: 50%;
+ border: 6px solid palevioletred;
+ margin-bottom: 2px;
+}
+h6,h2{
+  background-color: palevioletred;
+  text-shadow: 0px 0px 4px black;
+  border-top:  2px solid rgb(186, 183, 183);
+  padding: 7px 24px;
+  border-radius: 7px;
+  margin-bottom: 2px;
+  box-shadow: 1px 1px 10px rgb(92, 92, 92);
+}
+
+#gift{
+  margin-top: 70px;
+ 
+}
+.image{
+  margin: 0 auto;
+  background-image: url("https://nypost.com/wp-content/uploads/sites/2/2022/01/gifts.jpg?quality=75&strip=all");
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  border: 6px solid snow;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+#cry:hover{
+  background-image: url("https://i.pinimg.com/originals/57/25/e3/5725e34db7b29f9720e3c15af054e640.gif");
+}
+
+#done:hover{
+  background-image: url("http://68.media.tumblr.com/8bbb0fa58c1675d79a3f365f7558ab9b/tumblr_o5tmc14mIr1rmza7io1_500.gif");
+}
+
+#but{
+  width: 500px;
+}
+#but:hover{
+  background-image: url("https://cdn.dribbble.com/users/1843582/screenshots/15369009/media/0122c16a889296b26bc22e6d24bd5876.gif");
+}
+
+
+h3{
+  margin-top: 70px;
+  margin-bottom: 0px;
+  text-shadow: 0px 0px 10px black;
+  
+}
+p{
+  margin-top: 4px;
+  margin-bottom: 50px;
+  text-shadow: 0px 0px 10px black;
+  font-size: 12px;
+  color: #f0f8ff;
+}
+#footer{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(14, 14, 98);
+  height: 50px;
+}
+
+
